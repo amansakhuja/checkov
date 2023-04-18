@@ -4,6 +4,7 @@ import warnings
 import sys
 
 if __name__ == '__main__':
+    print("=================================================HERE AT BIN/CHECKOV===============================================================")
     with warnings.catch_warnings():
         warnings.simplefilter("ignore", category=SyntaxWarning)
         sys.exit(Checkov().run())
